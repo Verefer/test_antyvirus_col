@@ -1,0 +1,86 @@
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #2C2C38;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+      
+      h1 {
+        text-align: center;
+        color: #8A80F2;
+      }
+      
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #3B3B4B;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      p {
+        margin-bottom: 20px;
+      }
+      
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      
+      textarea,
+      select {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #575766;
+        color: #ffffff;
+        border: 1px solid #8A80F2;
+      }
+      
+      textarea:focus,
+      select:focus {
+        outline: none;
+        border-color: #8A80F2;
+      }
+      
+      button {
+        padding: 15px 30px;
+        background-color: #8A80F2;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      button:hover {
+        background-color: #644D9E;
+      }
+      
+      #result {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #644D9E;
+        color: #ffffff;
+        text-align: center;
+      }
+      
+      input[type="reset"] {
+        padding: 15px 30px;
+        background-color: #8A80F2;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 10px; /* добавим небольшой отступ справа */
+      }
+      
+      input[type="reset"]:hover {
+        background-color: #644D9E;
+      }
+      
