@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Тест по теме "Антивирусные программы"</title>
+  <script src="skript.js" defer></script>
 </head>
 <body>
 
   <h1>Тест по теме "Антивирусные программы"</h1>
 
-  <form action="обработчик-теста.php" method="post">
+  <form>
 
     <p><strong>Вопрос 1:</strong> Какую основную функцию выполняют антивирусные программы?</p>
     <input type="radio" name="q1" value="a"> a) Генерация новых вирусов.<br>
@@ -41,10 +42,11 @@
       <option value="c">Очистка реестра от вирусных записей.</option>
     </select><br>
     <br>
-    <button type="submit">Отправить ответы</button>
+    <button type="button" id="submitBtn">Отправить ответы</button>
     <input type="reset"> 
 
   </form>
+
 
 </body>
 </html>
