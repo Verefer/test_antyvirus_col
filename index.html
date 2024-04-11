@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тест по теме "Антивирусные программы"</title>
+</head>
+<body>
+
+  <h1>Тест по теме "Антивирусные программы"</h1>
+
+  <form action="обработчик-теста.php" method="post">
+
+    <p><strong>Вопрос 1:</strong> Какую основную функцию выполняют антивирусные программы?</p>
+    <input type="radio" name="q1" value="a"> a) Генерация новых вирусов.<br>
+    <input type="radio" name="q1" value="b"> b) Защита компьютера от вредоносных программ.<br>
+    <input type="radio" name="q1" value="c"> c) Ускорение работы операционной системы.<br>
+
+    <p><strong>Вопрос 2:</strong> Что представляет собой "эвристический анализ" в контексте антивирусных программ?</p>
+    <input type="radio" name="q2" value="a"> a) Анализ работы аппаратных устройств.<br>
+    <input type="radio" name="q2" value="b"> b) Обнаружение вирусов на основе их известных сигнатур.<br>
+    <input type="radio" name="q2" value="c"> c) Обнаружение неизвестных вирусов по определенным признакам.<br>
+
+    <p><strong>Вопрос 3:</strong> Что такое резидентный антивирус?</p>
+    <input type="radio" name="q3" value="a"> a) Антивирус, который всегда находится в оперативной памяти и мониторит систему в реальном времени.<br>
+    <input type="radio" name="q3" value="b"> b) Антивирус, который работает только по запросу пользователя.<br>
+    <input type="radio" name="q3" value="c"> c) Антивирус, специализирующийся на удалении резервных копий файлов.<br>
+
+    <p><strong>Вопрос 4:</strong> Какие виды вредоносных программ может обнаруживать антивирусное ПО?</p>
+    <input type="checkbox" name="q4[]" value="a"> a) Только вирусы.<br>
+    <input type="checkbox" name="q4[]" value="b"> b) Вирусы, троянские кони, шпионские программы и другие виды малвари.<br>
+    <input type="checkbox" name="q4[]" value="c"> c) Только программы с открытым исходным кодом.<br>
+    <input type="checkbox" name="q4[]" value="d"> d) Только программы из неизвестных источников.<br>
+   
+    <p><strong>Вопрос 5:</strong> Что такое автоматическое обновление в контексте антивирусных программ?</p>
+    <textarea name="q5" rows="4" cols="50" placeholder="Введите ваш ответ здесь"></textarea><br>
+    <p><strong>Вопрос 6:</strong> Какой вид антивирусной защиты предоставляет "облачный антивирус"?</p>
+    <select name="q6">
+      <option value="" disabled selected>Выберите ответ</option>
+      <option value="a">Анализ вредоносных сигнатур на компьютере пользователя.</option>
+      <option value="b">Мониторинг сетевого трафика и облачная проверка файлов.</option>
+      <option value="c">Очистка реестра от вирусных записей.</option>
+    </select><br>
+    <br>
+    <button type="submit">Отправить ответы</button>
+    <input type="reset"> 
+
+  </form>
+
+</body>
+</html>
